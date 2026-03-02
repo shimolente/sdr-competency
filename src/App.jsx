@@ -27,8 +27,8 @@ const PILLARS = [
       'List building and precision targeting based on SEO/Keyword analysis',
       'Defining Ideal Customer Profile (ICP) parameters and updating them quarterly as market signals shift',
       'Seamless process flow integration between Marketing and Sales to ensure no lead leakage',
-      'Collaborating with RevOps to maintain data hygiene standards across CRM entries',
-      'Owning the prospecting cadence architecture: touch frequency, channel mix, and sequencing logic',
+      'Collaborating with RevOps (Marketing, CRM, Sales Team, and everyone else) to maintain data hygiene standards across CRM entries',
+      'Building the outreach framework: optimizing how many times we contact a lead and coordinating the flow between LinkedIn, email, and calls to ensure a seamless experience.',
     ],
   },
   {
@@ -46,10 +46,10 @@ const PILLARS = [
     divider: 'border-violet-100',
     bullets: [
       'Experimenting with the tool stack (Clay, Lemlist) to identify workflow optimisation opportunities',
-      'Developing and optimising our proprietary Cold Call AI Agent—prompt engineering, logic trees, and objection handling',
+      'Developing and optimising our proprietary Cold Call AI Agent; prompt engineering, logic trees, and objection handling',
       'Building the roadmap for Agentic AI workflows that reduce manual outreach labour by ≥60%',
       'Creating feedback loops from call recordings into the AI Agent to continuously improve its accuracy and conversion rates',
-      'Maintaining a "Tool Experiment Log" documenting hypothesis, test methodology, and outcome for each initiative',
+      'Tracking tool performance: documenting why we tried a new tool, how we tested it, and the final results to ensure we only pay for what works.',
     ],
   },
   {
@@ -66,11 +66,11 @@ const PILLARS = [
     toggle: 'text-emerald-600 hover:text-emerald-800',
     divider: 'border-emerald-100',
     bullets: [
-      "Defining the 'Hook' for LinkedIn and Email outreach—leading with insight, not feature",
+      "Defining the 'Hook' for LinkedIn and Email outreach; leading with insight, not feature",
       'Planning content calendars that align with dynamic market trends (e.g., pivoting between Trend X and Trend Y monthly based on search volume data)',
       'Recognising and articulating Unique Selling Propositions and Value Propositions for each ICP segment',
       'A/B testing subject lines, CTAs, and message formats to maintain a minimum 30% open rate and 8% reply rate',
-      'Synthesizing competitive intelligence into messaging frameworks that differentiate us from direct and indirect competitors',
+      'Converting rival market data into high-impact messaging that clearly distinguishes our unique value from both direct competitors and alternative industry solutions.',
     ],
   },
   {
@@ -87,11 +87,11 @@ const PILLARS = [
     toggle: 'text-amber-600 hover:text-amber-800',
     divider: 'border-amber-100',
     bullets: [
-      'Acting as the first human touchpoint for inbound calls—setting the tone for a consultative, high-trust engagement',
+      'Acting as the first human touchpoint for inbound calls; setting the tone for a consultative, high-trust engagement',
       'Gathering high-level technical requirements: stack, integrations, scale, compliance constraints, and decision timeline',
       'Scoring prospect fit against technical qualification criteria before the Sales handover occurs',
-      'Completing a structured Discovery Brief for each qualified inbound that arms the Account Executive with context',
-      'Ensuring prospect alignment with our technical capabilities and implementation process before Sales invests time in a full demo cycle',
+      'Completing a structured Discovery Brief for each qualified inbound that arms the BDM with context',
+      'Validating project requirements against our capabilities to filter out mismatches and prioritize qualified, high-value software engagements.',
     ],
   },
 ]
