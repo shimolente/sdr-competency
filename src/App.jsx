@@ -329,7 +329,7 @@ function MissionStatement() {
                 <Brain size={16} className="text-white" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-gray-900">Systems Architect</p>
+                <p className="text-sm font-semibold text-gray-900">Principal SDR</p>
                 <p className="text-xs text-gray-400">Apex level</p>
               </div>
             </div>
