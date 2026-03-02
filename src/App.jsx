@@ -99,7 +99,7 @@ const PILLARS = [
 const LEVELS = [
   {
     id: 1,
-    code: 'SDR I',
+    code: 'Junior SDR',
     label: 'Execution',
     icon: Zap,
     activeBg: 'bg-blue-600',
@@ -113,20 +113,20 @@ const LEVELS = [
     headerBorder: 'border-blue-100',
     focus: 'Muscle Memory',
     focusDesc: 'Building the foundational reflexes of high-volume outreach through disciplined, daily execution.',
-    tools: ['Lemlist', 'LinkedIn Sales Navigator', 'CRM (HubSpot/Salesforce)', 'Calendly', 'Loom'],
+    tools: ['Lemlist', 'LinkedIn Sales Navigator', 'CRM (HubSpot/Salesforce)', 'Microsoft Calendar', 'Loom'],
     kpis: [
-      'Calls made per day (target: 40–60)',
-      'LinkedIn connections sent per week (target: 50–80)',
-      'Initial meeting volume per month (target: 8–12 qualified meetings)',
-      'Sequence open rate (target: ≥25%)',
+      'Calls made per day (target: 10)',
+      'LinkedIn connections sent per week (target: 75-100)',
+      'Initial meeting volume per month (target: 2 qualified meetings)',
+      'Acceptance or sequence open rate (target: 20%)',
     ],
     responsibilities: [
       'Executing pre-built outreach sequences with precision and consistency',
       'Mastering Lemlist campaign setup: variables, liquid syntax, and deliverability best practices',
       'Operating LinkedIn Sales Navigator for boolean search and lead list creation',
       'Logging all activity accurately in CRM with zero data hygiene exceptions',
-      'Attending weekly coaching sessions with Senior SDR or Principal SDR for call review',
-      'Shadowing inbound discovery calls to begin absorbing qualification language',
+      'Attending routined discussion sessions with BDM',
+      'Doing inbound discovery calls',
     ],
     competencies: [
       'Attention to detail and process adherence',
@@ -134,11 +134,11 @@ const LEVELS = [
       'Basic understanding of our ICP and value proposition',
       'Effective time-blocking and prioritisation habits',
     ],
-    promotionCriteria: 'Consistently hitting meeting volume KPI for 3+ consecutive months; demonstrating ownership of copy personalisation in ≥30% of outreach.',
+    promotionCriteria: 'Yang penting jadi orang baik deh',
   },
   {
     id: 2,
-    code: 'SDR II',
+    code: 'SDR',
     label: 'Optimization',
     icon: Settings,
     activeBg: 'bg-violet-600',
@@ -152,12 +152,12 @@ const LEVELS = [
     headerBorder: 'border-violet-100',
     focus: 'Value Prop Mastery',
     focusDesc: 'Moving beyond template execution to original, insight-driven copy and first-touch technical discovery.',
-    tools: ['Clay (data enrichment)', 'Lemlist (advanced branching)', 'ChatGPT/Claude (copy assist)', 'Notion (knowledge base)', 'Gong (call recording)'],
+    tools: ['Clay (data enrichment)', 'Lemlist (advanced branching)', 'ChatGPT/Claude (copy assist)', 'Excel Hub or self dashboard (knowledge base)', 'RingCentral (call recording)'],
     kpis: [
       'Reply rate on self-authored sequences (target: ≥8%)',
       'Clay enrichment accuracy rate (target: ≥90%)',
-      'First-touch inbound discovery meetings completed per month (target: 4–6)',
-      'Pipeline contribution from self-sourced opportunities',
+      'First-touch inbound discovery meetings completed per month [Call agent and outreach] (target: 3-4)',
+      'Outbound pipeline contribution; Actively finding leads through various channels',
     ],
     responsibilities: [
       'Developing original outreach copy: subject lines, openers, and CTAs without using templates',
@@ -165,7 +165,7 @@ const LEVELS = [
       'Conducting first-touch inbound discovery meetings using the structured Discovery Brief framework',
       'Analysing campaign performance data and independently proposing optimisation hypotheses',
       'Beginning to document personal playbooks for ICP segments that consistently convert',
-      'Contributing to the team Notion knowledge base with learnings from A/B tests',
+      'Contributing to the team SDR Hub knowledge base with learnings from A/B tests',
     ],
     competencies: [
       'Copywriting and message architecture skills',
@@ -173,7 +173,7 @@ const LEVELS = [
       "Basic understanding of Clay's enrichment waterfall logic",
       'Consultative questioning techniques for discovery meetings',
     ],
-    promotionCriteria: 'Demonstrated reply rate of ≥8% over 2+ months; led ≥10 discovery meetings with documented outcomes; proposed ≥2 successful tool or copy experiments.',
+    promotionCriteria: 'Yang penting kerja keras',
   },
   {
     id: 3,
@@ -191,20 +191,18 @@ const LEVELS = [
     headerBorder: 'border-emerald-100',
     focus: 'Process Engineering',
     focusDesc: "Designing and leading experiments that shift the team's operating model toward higher-leverage, AI-augmented workflows.",
-    tools: ['Clay (API-level integrations)', 'Lemlist (webhook automation)', 'OpenAI API', 'Make/Zapier (workflow orchestration)', 'Ahrefs/Semrush (SEO data)', 'Gong (conversation intelligence)'],
+    tools: ['Clay (API-level integrations)', 'Lemlist (webhook automation)', 'OpenAI API', 'Make/Zapier (workflow orchestration)', 'Ring Central and AI Call Agent (conversation intelligence)'],
     kpis: [
-      'Number of tool experiments led per quarter (target: 2–3)',
-      'Improvement in team-wide reply rate attributable to Senior SDR initiatives',
-      'AI Agent iteration cycles completed (target: ≥1 per month)',
       'SEO/trend alignment score on outreach messaging (internal rubric)',
+      'Weekly output efficiency: x% ratio of connections sent to meetings booked',
+      'Quarterly pipeline value generated through independent, self-sourced outreach',
     ],
     responsibilities: [
       'Leading tool experiments end-to-end: hypothesis → test design → execution → result documentation',
-      'Aligning outreach messaging with SEO and Market Research trends using Ahrefs/Semrush data to surface high-intent keywords',
-      'Optimising the Cold Call AI Agent logic: refining objection-handling scripts, improving escalation paths, and tuning tone parameters',
-      'Building and maintaining outreach playbooks for each ICP segment that junior SDRs can execute',
-      'Running weekly campaign performance reviews and presenting findings and recommendations to the SDR lead',
-      'Mentoring SDR I and SDR II team members through structured 1:1 coaching sessions',
+      'Aligning outreach messaging with SEO and Market Research trends to surface high-intent keywords',
+      'Optimising the AI Call Agent logic: refining objection-handling scripts, improving escalation paths, and tuning tone parameters',
+      'Building and maintaining outreach playbooks for each ICP segment repository',
+      'Running weekly campaign performance reviews and presenting findings and recommendations to the SDR team, BDM, and marketing team',
     ],
     competencies: [
       'Systems thinking: ability to see the full outreach funnel and identify highest-leverage intervention points',
@@ -212,7 +210,7 @@ const LEVELS = [
       'SEO and keyword research interpretation for messaging alignment',
       'Coaching and feedback delivery skills',
     ],
-    promotionCriteria: 'Led ≥3 successful experiments with measurable outcome; Cold Call AI Agent under management shows ≥15% improvement in qualified meeting rate; recognised as a peer coach by ≥2 junior team members.',
+    promotionCriteria: 'Asal doa banyak',
   },
   {
     id: 4,
@@ -230,7 +228,7 @@ const LEVELS = [
     headerBorder: 'border-amber-100',
     focus: 'Agentic AI & Systems',
     focusDesc: 'Owning the long-term architecture of our AI-augmented outbound engine and the SDR function itself.',
-    tools: ['Full AI Agent Stack (LangChain / custom)', 'Clay (enterprise tier)', 'Lemlist (agency-tier automation)', 'CRM Admin', 'Notion (system documentation)', 'BI tooling (Looker/Metabase)'],
+    tools: ['Full AI Agent Stack (Custom)', 'Clay (enterprise tier)', 'Lemlist (agency-tier automation)', 'CRM Admin', 'SDR Hub (system documentation)', 'BI tooling'],
     kpis: [
       'Qualified pipeline generated by Agentic AI workflows (revenue attribution)',
       'Reduction in manual SDR effort hours per qualified meeting (target: ≥60% vs. baseline)',
@@ -240,7 +238,7 @@ const LEVELS = [
     responsibilities: [
       'Designing the "SDR Hub" automation global flow: the interconnected system of AI agents, enrichment pipelines, outreach automations, and CRM sync rules that govern the entire outbound engine',
       'Architecting the long-term AI outreach strategy: defining which tasks are delegated to AI agents vs. reserved for human judgment',
-      'Evaluating and selecting new AI tooling and platforms for the team stack on a quarterly basis',
+      'Evaluating and selecting new AI tooling and platforms for the team stack on a yearly basis to augment SDR processes',
       'Mentoring the entire SDR team on technical discovery frameworks, AI tooling, and consultative selling technique',
       "Presenting the SDR function's performance, architecture, and roadmap to executive stakeholders on a monthly cadence",
       'Owning the job family documentation, competency framework, and promotion criteria to keep the stream aligned with business evolution',
@@ -251,7 +249,7 @@ const LEVELS = [
       'Executive communication and stakeholder management',
       'Full-stack sales operations: CRM admin, data governance, and BI reporting',
     ],
-    promotionCriteria: 'This is the apex level of the SDR stream. Growth beyond this role leads to Head of Sales Development, RevOps Lead, or Technical Pre-Sales paths.',
+    promotionCriteria: 'This is the highest level of the SDR stream. Growth beyond this role leads to Head of Sales Development, RevOps Lead, or Technical Pre-Sales paths. Or is this level considered BDM?',
   },
 ]
 
@@ -608,8 +606,8 @@ function LearningCurveChart() {
   const [hovered, setHovered] = useState(null)
 
   const dataPoints = [
-    { level: 'SDR I', manualEffort: 90, strategicComplexity: 10, aiOwnership: 5 },
-    { level: 'SDR II', manualEffort: 65, strategicComplexity: 35, aiOwnership: 20 },
+    { level: 'Junior SDR', manualEffort: 90, strategicComplexity: 10, aiOwnership: 5 },
+    { level: 'SDR', manualEffort: 65, strategicComplexity: 35, aiOwnership: 20 },
     { level: 'Senior SDR', manualEffort: 35, strategicComplexity: 65, aiOwnership: 50 },
     { level: 'Principal SDR', manualEffort: 10, strategicComplexity: 95, aiOwnership: 85 },
   ]
@@ -735,15 +733,7 @@ function LearningCurveChart() {
                 bg: 'bg-blue-50 border-blue-100',
                 desc: 'Deep competency development in technical sales engineering, AI orchestration, Agentic workflow design, and consultative requirement gathering. This is where the exponential value compounds.',
               },
-              {
-                phase: 'Inflection Point',
-                label: 'The Bimodal Gap',
-                duration: '≈ Month 3',
-                dotColor: 'bg-amber-500',
-                labelColor: 'text-amber-700',
-                bg: 'bg-amber-50 border-amber-100',
-                desc: "The critical moment where an SDR transitions from executing pre-built systems to designing and improving them. HR should expect a temporary performance plateau here—this is a feature, not a bug.",
-              },
+  
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -773,7 +763,7 @@ function LearningCurveChart() {
 
 function FooterSummary() {
   const stats = [
-    { icon: Users, label: 'Team Structure', value: '4 Levels', sub: 'SDR I → Principal SDR', color: 'text-blue-600', bg: 'bg-blue-50', pill: 'bg-blue-100 text-blue-700' },
+    { icon: Users, label: 'Team Structure', value: '4 Levels', sub: 'Junior SDR → Principal SDR', color: 'text-blue-600', bg: 'bg-blue-50', pill: 'bg-blue-100 text-blue-700' },
     { icon: TrendingUp, label: 'Mastery Timeline', value: '2–5 Years', sub: 'Full technical stream depth', color: 'text-violet-600', bg: 'bg-violet-50', pill: 'bg-violet-100 text-violet-700' },
     { icon: TrendingDown, label: 'Manual Effort Reduction', value: '≥ 60%', sub: 'At Principal SDR via Agentic AI', color: 'text-emerald-600', bg: 'bg-emerald-50', pill: 'bg-emerald-100 text-emerald-700' },
   ]
@@ -799,16 +789,6 @@ function FooterSummary() {
           })}
         </div>
 
-        {/* Dark summary block matching the reference screenshot */}
-        <div className="bg-gray-900 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <p className="text-sm text-gray-400 max-w-sm leading-relaxed">
-            Protects strategic leverage. SDRs show up to architect and discover, not interrupt.
-          </p>
-          <div className="text-right">
-            <p className="text-4xl font-bold text-white">6h</p>
-            <p className="text-xs font-bold tracking-widest uppercase text-gray-500 mt-0.5">Overlap Daily</p>
-          </div>
-        </div>
 
         <div className="text-center mt-8">
           <p className="text-xs text-gray-400">
