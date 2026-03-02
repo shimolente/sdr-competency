@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest /Users/pasha_c698_1/Projects/sdr-competency -- --template react --cache /tmp/npm-cache)",
+      "Bash(npm_config_cache=/tmp/npm-cache-sdr npm create vite@latest /Users/pasha_c698_1/Projects/sdr-competency -- --template react)",
+      "Bash(npm_config_cache=/tmp/npm-cache-sdr npm create vite@latest . -- --template react)",
+      "Bash(npm_config_cache=/tmp/npm-cache-sdr npm install)",
+      "Bash(npm_config_cache=/tmp/npm-cache-sdr npm run build)",
+      "Bash(python3 -c \":*)",
+      "Bash(gh auth status)",
+      "Bash(vercel --version)",
+      "Bash(git init)",
+      "Bash(git add .)"
+    ]
+  }
+}
